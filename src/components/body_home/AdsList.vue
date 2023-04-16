@@ -14,7 +14,7 @@ const ads = ref([]);
 const route = useRoute();
 const loadAds = () => {
     return new Promise((resolve, reject) => {
-        axios.get('https://back-waro-colombia.onrender.com/user/getgarage/' + category.value)
+        axios.get('https://back-waro-colombia-deprecated.onrender.com/user/getgarage/' + category.value)
             .then(response => {
                 ads.value = response.data;
                 resolve();

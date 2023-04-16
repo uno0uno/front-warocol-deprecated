@@ -17,7 +17,7 @@ const loadProduct = async() => {
 
     let config ={
       method: 'get',
-      url: `https://back-waro-colombia.onrender.com/user/getgarageitem/${route.params.pId}`,
+      url: `https://back-waro-colombia-deprecated.onrender.com/user/getgarageitem/${route.params.pId}`,
       headers: { 'Content-Type' :'application/json' }
       };
 

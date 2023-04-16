@@ -35,7 +35,7 @@ const NewOrder = async() =>{
 
     let config ={
         method: 'post',
-        url: 'https://magicv1-fastapi.herokuapp.com/order/',
+        url: 'https://back-waro-colombia-deprecated.onrender.com/order/',
         headers: { 'Content-Type': 'application/json'},
         data : data
         };
